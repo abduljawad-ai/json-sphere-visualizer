@@ -1,1 +1,41 @@
-{\n  \"name\": \"json-sphere-visualizer\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A project visualizing JSON data with 3D representations using React and Three.js.\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.0.0\",\n    \"react-dom\": \"^18.0.0\",\n    \"three\": \"^0.152.0\",\n    \"@react-three/fiber\": \"^8.0.0\"\n  },\n  \"devDependencies\": {\n    \"react-scripts\": \"^5.0.0\"\n  },\n  \"engines\": {\n    \"node\": \">=14.0.0\"\n  }\n}
+{
+  "name": "json-sphere-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^r128",
+    "react-three-fiber": "^8.13.0",
+    "drei": "^9.80.0",
+    "@react-three/controls": "^5.0.0",
+    "axios": "^1.4.0",
+    "zustand": "^4.3.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  }
+}
